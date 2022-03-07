@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "outDir": "build/lib",
+    "target": "es5",
+    "module": "ESNext",
+    "lib": [
+      "esnext",
+      "es6",
+      "es5",
+      "dom",
+      "scripthost"
+    ],
+    "allowJs": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "isolatedModules": false
+  },
+  "exclude": [
+    "config",
+    "node_modules",
+  ],
+  "include": [
+    "src",
+    "typings.d.ts",
+  ]
+}

@@ -1,0 +1,6 @@
+node_modules/*
+config/*
+scripts/*
+.eslintrc.js
+babel.config.js
+*.d.ts

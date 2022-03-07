@@ -1,0 +1,48 @@
+{
+  "name": "own-react",
+  "version": "1.0.0",
+  "description": "Step I: The createElement Function Step II: The render Function Step III: Concurrent Mode Step IV: Fibers Step V: Render and Commit Phases Step VI: Reconciliation Step VII: Function Components Step VIII: Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max_old_space_size=4096 config/webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "core-js": "^3.21.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-proposal-decorators": "^7.17.2",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@babel/runtime-corejs3": "^7.17.2",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "babel-plugin-import": "^1.13.3",
+    "boxen": "5",
+    "chalk": "4",
+    "crypto-browserify": "^3.12.0",
+    "eslint": "^8.9.0",
+    "fork-ts-checker-webpack-plugin": "6",
+    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-tags-plugin": "^3.0.2",
+    "react-dev-utils": "^12.0.0",
+    "stream-browserify": "^3.0.0",
+    "thread-loader": "^3.0.4",
+    "timers-browserify": "^2.0.12",
+    "typescript": "^4.5.5",
+    "vm-browserify": "^1.1.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0",
+    "webpackbar": "^5.0.2"
+  }
+}
